@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARI NEWS | Inteligencia de Negocios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FAFAFA;
+            color: #0D0D0D;
+        }
+        .hero-gradient {
+            background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4));
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        matteGray: '#6B7280',
+                        brandDark: '#0D0D0D',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="max-w-4xl mx-auto px-6 pt-12 pb-8">
+        <h1 class="text-4xl font-bold tracking-tighter text-brandDark uppercase">ARI NEWS</h1>
+        <p class="text-matteGray text-sm tracking-widest uppercase mt-1 font-medium">Inteligencia de Negocios</p>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="max-w-4xl mx-auto px-6">
+        <section class="relative rounded-2xl overflow-hidden shadow-2xl">
+            <img src='https://opal.google/board/blobs/9d91b30a-0a4c-447e-9856-2cf0273222c3' alt='Análisis de inteligencia de negocios' class="w-full h-64 md:h-96 object-cover" />
+            <div class="absolute inset-0 hero-gradient"></div>
+        </section>
+
+        <!-- Context Bar -->
+        <section class="flex gap-3 mt-6 mb-12">
+            <span class="px-4 py-1.5 bg-black text-white text-[10px] font-bold tracking-widest uppercase rounded-full">Tecnología</span>
+            <span class="px-4 py-1.5 bg-gray-200 text-brandDark text-[10px] font-bold tracking-widest uppercase rounded-full">Perú</span>
+        </section>
+
+        <!-- News Feed -->
+        <section class="space-y-0 border-t border-gray-200">
+            <!-- News Item 01 -->
+            <article class="py-10 px-6 bg-white transition-all hover:bg-gray-50 border-b border-gray-100">
+                <div class="flex flex-col md:flex-row md:items-start gap-6">
+                    <span class="text-matteGray font-mono text-sm">01 / 03</span>
+                    <div class="flex-1">
+                        <h2 class="text-2xl font-bold text-brandDark leading-tight mb-4">Perú Tech Week 2026: Startups, inversión e IA convergen en Lima</h2>
+                        <p class="text-gray-600 leading-relaxed mb-6 text-lg">El ecosistema tecnológico de Lima se prepara para la cuarta edición del Perú Tech Week, enfocada en inteligencia artificial y venture capital. Durante el primer semestre de 2026, las startups de la región captaron US$ 2,400 millones, con un 55% de las inversiones dirigidas a proyectos de IA.</p>
+                        <a href="https://techla.na/startups-inversion-e-ia-convergen-en-lima-peru-tech-week-preve-superar-las-100-actividades/" target="_blank" class="inline-flex items-center text-sm font-semibold text-brandDark hover:text-blue-600 transition-colors">
+                            Acceder a la Fuente →
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Item 02 -->
+            <article class="py-10 px-6 bg-[#F9F9F9] transition-all hover:bg-gray-100 border-b border-gray-100">
+                <div class="flex flex-col md:flex-row md:items-start gap-6">
+                    <span class="text-matteGray font-mono text-sm">02 / 03</span>
+                    <div class="flex-1">
+                        <h2 class="text-2xl font-bold text-brandDark leading-tight mb-4">Importaciones de tecnología en Perú crecen 46% y superan los USD 1,700 millones</h2>
+                        <p class="text-gray-600 leading-relaxed mb-6 text-lg">Entre enero y julio de 2026, las importaciones peruanas de smartphones, tablets y laptops mostraron una aceleración histórica impulsada por la renovación de infraestructura digital y la alta demanda de dispositivos de conectividad en hogares y empresas.</p>
+                        <a href="https://www.infobae.com/peru/2026/10/07/importaciones-de-tecnologia-en-peru-crecen-46-y-superan-los-usd-1700-millones-impulsadas-por-smartphones/" target="_blank" class="inline-flex items-center text-sm font-semibold text-brandDark hover:text-blue-600 transition-colors">
+                            Acceder a la Fuente →
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- News Item 03 -->
+            <article class="py-10 px-6 bg-white transition-all hover:bg-gray-50 border-b border-gray-100">
+                <div class="flex flex-col md:flex-row md:items-start gap-6">
+                    <span class="text-matteGray font-mono text-sm">03 / 03</span>
+                    <div class="flex-1">
+                        <h2 class="text-2xl font-bold text-brandDark leading-tight mb-4">Lima avanza como hub regional en proyectos de Inteligencia Artificial</h2>
+                        <p class="text-gray-600 leading-relaxed mb-6 text-lg">La consultora Novacomp consolida su oficina en Lima como centro estratégico de operaciones para América del Sur. La empresa proyecta un crecimiento del 20% en su equipo especializado para fortalecer servicios de IA en banca, retail y minería.</p>
+                        <a href="https://www.businessempresarial.com.pe/lima-avanza-como-hub-regional-en-proyectos-de-ia/" target="_blank" class="inline-flex items-center text-sm font-semibold text-brandDark hover:text-blue-600 transition-colors">
+                            Acceder a la Fuente →
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Space -->
+    <div class="h-20"></div>
+
+</body>
+</html>
